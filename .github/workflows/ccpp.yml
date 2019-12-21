@@ -10,9 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: configure
-      run:  #pwd
-            ls
-            #autoreconf -i  
+      run:  autoreconf -i  
             #./configure
     #- name: make
     #  run: make
